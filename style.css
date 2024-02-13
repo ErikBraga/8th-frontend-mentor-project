@@ -97,3 +97,38 @@ body{
     color: #141414;
     font-weight: 700;
 }
+
+.attribution{
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    bottom: 100px; 
+    color: lightgray;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 360px) and (max-width: 470px){
+    #container{
+        width: 320px;
+        height: 652px;
+    }
+
+    #container h1{
+        font-size: 26px;
+    }
+    
+    #container span{
+        font-size: 16px;
+    }
+
+    #container h2{
+        font-size: 14px;
+    }
+
+    .btn{
+        width: 270px;
+    }
+}
